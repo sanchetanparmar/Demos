@@ -8,7 +8,7 @@ variables:
   client_id: 'clientID'
   tenant_id: 'tenantID'
   subscription_id: 'subID'
-  managed_image_resource_group_name: 'app1ResourceGroup'
+  managed_image_resource_group_name: 'myResourceGroup'
   PackageLocation: 'https://storageaccount.blob.core.windows.net/webapp/SampleApps.zip'
 steps:
 - powershell: |
